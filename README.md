@@ -18,5 +18,3 @@ On the course you can learn:
 - Visualisation
 
 Orange is installed on six computers in KUB Datalab at South Campus. If you wish to use your own computer, then before the course, we ask you to download and install the program. [Click here to go to the download page.](https://orangedatamining.com/download/)
-
-[!["Welcome to Orange"]([https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg](https://img.youtube.com/vi/HXjnDIgGDuI&t/0.jpg))]([https://www.youtube.com/watch?v=StTqXEQ2l-Y](https://youtu.be/HXjnDIgGDuI?si=qpj4TkjimDMoqGgt) "Welcome to Orange")
