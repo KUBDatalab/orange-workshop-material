@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="The Guardian" qualified_name="orangecontrib.text.widgets.owguardian.OWGuardian" project_name="Orange3-Text" version="" title="The Guardian" position="(78.0, 199.0)" />
+		<node id="1" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer" position="(276.0, 297.0)" />
+		<node id="2" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(548.0, 196.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Corpus" enabled="true" source_channel_id="corpus" sink_channel_id="corpus" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Corpus" sink_channel="Data" enabled="true" source_channel_id="corpus" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(23.0, 21.0, 139.0, 172.0)" font-family="Segoe UI" font-size="16">Query operators supports AND, OR and NOT operators; and phrase seach
+</text>
+		<text id="1" type="text/plain" rect="(196.0, 25.0, 793.0, 167.0)" font-family="Segoe UI" font-size="16">Note that OR is the default operator, so you can omit it if you like. 
+
+debate AND (economy immigration) is the same as debate AND (economy OR immigration)</text>
+		<text id="2" type="text/plain" rect="(27.0, 270.0, 150.0, 100.0)" font-family="Segoe UI" font-size="16">"asylum seeker" OR refugee
+2015-01-01 2015-12-31</text>
+		<text id="3" type="text/plain" rect="(614.0, 163.0, 150.0, 100.0)" font-family="Segoe UI" font-size="16">Store the data as a csv file - so you do not need to download again</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVdAEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAlkYXRlX2Zyb22UjAhkYXRldGlt
+ZZSMBGRhdGWUk5RDBAffAQGUhZRSlIwHZGF0ZV90b5RoBUMEB98MH5SFlFKUjA5yZWNlbnRfcXVl
+cmllc5RdlCiMGiJhc3lsdW0gc2Vla2VyIiBPUiByZWZ1Z2VllIwLcmljaGkgc3VuYWuUjARicmF0
+lIwOInJhY2hlbCByb2RkeSKUjBkiaG93IHRvIG1ha2UgdGhlIHBlcmZlY3QilIwXaG93IHRvIG1h
+a2UgdGhlIHBlcmZlY3SUZYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAA///8xQAAAOv/
+//3BAAACXP///MYAAAEE///9wAAAAlsAAAABAAAAAAeA///8xgAAAQT///3AAAACW5SMDXRleHRf
+aW5jbHVkZXOUXZSMCEhlYWRsaW5llGGMC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="1" format="pickle">gASVUQIAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAGkAAACaAAAFfgAAA7oAAABpAAAAtgAABX4AAAO6
+AAAAAAAAAAAF6AAAAGkAAAC2AAAFfgAAA7qUjBJzZWxlY3RlZF9kb2N1bWVudHOUj5QoSwCQjAtz
+aG93X3Rva2Vuc5SJjAtfX3ZlcnNpb25fX5RLAowQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdl
+d2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwQZGlzcGxheV9m
+ZWF0dXJlc5RdlCiMB1NlY3Rpb26US2WGlIwISGVhZGxpbmWUS2eGlIwHQ29udGVudJRLZ4aUjApU
+cmFpbCBUZXh0lEtnhpSMBEhUTUyUS2eGlIwQUHVibGljYXRpb24gRGF0ZZRLaIaUjARUeXBllEtl
+hpSMCExhbmd1YWdllEtlhpSMBFRhZ3OUS2eGlIwDVVJMlEtnhpSMCldvcmQgQ291bnSUS2aGlGVK
+/f///4aUjA1yZWdleHBfZmlsdGVylIwAlEr+////hpSMD3NlYXJjaF9mZWF0dXJlc5RdlGgWS2eG
+lGFK/f///4aUaAhLAnWMCmF0dHJpYnV0ZXOUfZRoFEsBc4wFbWV0YXOUfZQoaBZLA2gYSwNoGksD
+aBxLA2geSwRoIEsBaCJLAWgkSwNoJksDaChLAnV1YmF1Lg==
+</properties>
+		<properties node_id="2" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xfb\xcd\x00\x00\x01\xad\xff\xff\xfd^\x00\x00\x02K\xff\xff\xfb\xce\x00\x00\x01\xc6\xff\xff\xfd]\x00\x00\x02J\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\xff\xff\xfb\xce\x00\x00\x01\xc6\xff\xff\xfd]\x00\x00\x02J', 'stored_name': 'The Guardian asylum seeker refugee 2015.csv', 'stored_path': '.', '__version__': 3}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

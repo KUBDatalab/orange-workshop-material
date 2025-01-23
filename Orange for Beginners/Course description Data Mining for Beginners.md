@@ -14,4 +14,10 @@ On the course you can learn:
 - Analysis and categorization - both texts and images   
 - Visualisation
 
-Orange is installed on six computers in KUB Datalab at South Campus. If you wish to use your own computer, then before the course, we ask you to download and install the program. [Click here to go to the download page.](https://orangedatamining.com/download/)
+
+## Software
+Orange is installed on six computers in KUB Datalab at South Campus.
+If you wish to use your own computer, then before the course, we ask you to download and install the program. [Click here to go to the download page.](https://orangedatamining.com/download/)
+
+## Data
+On the course [we will use data that you can download from here](https://silo1.sciencedata.dk/shared/b8fc4cb939dafbb214e370c2127ebb13).
