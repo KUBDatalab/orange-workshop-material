@@ -9,10 +9,11 @@ The course is recommended if you want to understand how data, such as digital te
 Orange can handles many of the same tasks and processes that are integrated parts of the concepts of data science that typically is applied to different fields of studies within both natural, social and humanistic science.  
 
 On the course you can learn:  
-- Data collection of news articles  
-- Preprocessing before analysis   
-- Analysis and categorization - both texts and images   
-- Visualisation
+- embedding
+- data collection of news articles  
+- to import and handle file types like image files, csv, and txt files   
+- analysis and categorization - both texts and images   
+- visualisation
 
 
 ## Software
